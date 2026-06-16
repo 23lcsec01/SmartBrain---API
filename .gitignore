@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+jspm_packages/
+web_modules/
+
+# Local env files (highly sensitive, do not push!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+backend/.env.production
+
+# Production builds
+build/
+dist/
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
